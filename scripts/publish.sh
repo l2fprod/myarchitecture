@@ -5,7 +5,7 @@ npm install
 node architecture.js
 
 # get the current gh-pages branch
-git clone --depth=1 --branch=gh-pages git@github.com:l2fprod/myarchitecture build
+git clone --depth=1 --branch=gh-pages "https://${GITHUB_TOKEN}@github.com:l2fprod/myarchitecture" build
 
 # copy over the PPT
 cp mycatalog-architecture-diagram-template.pptx build
