@@ -1,0 +1,81 @@
+[
+  {
+    "title": "Kubernetes",
+    "icon": "https://ace-resources-production-red.cdn.eu-gb.s-bluemix.net/resources/cache/14ee-1854984818/images/clusters/kubernetes-logo.svg"
+  },
+  {
+    "title": "Container Registry",
+    "icon": "https://ace-resources-production-red.cdn.eu-gb.s-bluemix.net/resources/cache/58a-3740596630/images/registry/registry-logo.svg"
+  },
+  {
+    "title": "Docker",
+    "icon": "https://www.docker.com/sites/default/files/vertical_large.png"
+  },
+  {
+    "title": "Cloud Functions",
+    "icon": "https://ace-resources-production-red.cdn.eu-gb.s-bluemix.net/resources/cache/baa-257284315/images/whisk/whisk.svg"
+  },
+  {
+    "title": "Schematics",
+    "icon": "icons/schematics_logo_64x64.png"
+  },
+  {
+    "title": "Kitura Mobile Backend",
+    "icon": "https://www.ibm.com/cloud-computing/bluemix/sites/default/files/assets/page/catalog-swift.svg"
+  },
+  {
+    "title": "Liberty for Java",
+    "icon": "https://ace-catalog-production-red.cdn.eu-gb.s-bluemix.net/catalog/image/eu-gb/rest/templates/javaHelloWorld/cachedIcon/large/0"
+  },
+  {
+    "title": "SDK for Node.js",
+    "icon": "https://ace-catalog-production-red.cdn.eu-gb.s-bluemix.net/catalog/image/eu-gb/rest/templates/nodejsHelloWorld/cachedIcon/large/0"
+  },
+  {
+    "title": "ASP.NET Core",
+    "icon": "https://ace-catalog-production-red.cdn.eu-gb.s-bluemix.net/catalog/image/eu-gb/rest/templates/dotnetHelloWorld/cachedIcon/large/0"
+  },
+  {
+    "title": "Runtime for Swift",
+    "icon": "https://ace-catalog-production-red.cdn.eu-gb.s-bluemix.net/catalog/image/eu-gb/rest/templates/swifthelloworld/cachedIcon/large/0"
+  },
+  {
+    "title": "XPages",
+    "icon": "https://ace-catalog-production-red.cdn.eu-gb.s-bluemix.net/catalog/image/eu-gb/rest/templates/xspHelloWorld/cachedIcon/large/0"
+  },
+  {
+    "title": "Go",
+    "icon": "https://ace-catalog-production-red.cdn.eu-gb.s-bluemix.net/catalog/image/eu-gb/rest/templates/goHelloWorld/cachedIcon/large/0"
+  },
+  {
+    "title": "PHP",
+    "icon": "https://ace-catalog-production-red.cdn.eu-gb.s-bluemix.net/catalog/image/eu-gb/rest/templates/phpHelloWorld/cachedIcon/large/0"
+  },
+  {
+    "title": "Python",
+    "icon": "https://ace-catalog-production-red.cdn.eu-gb.s-bluemix.net/catalog/image/eu-gb/rest/templates/pythonHelloWorld/cachedIcon/large/0"
+  },
+  {
+    "title": "Ruby",
+    "icon": "https://ace-catalog-production-red.cdn.eu-gb.s-bluemix.net/catalog/image/eu-gb/rest/templates/rubyHelloWorld/cachedIcon/large/0"
+  },
+  {
+    "title": "Tomcat",
+    "icon": "https://ace-catalog-production-red.cdn.eu-gb.s-bluemix.net/catalog/image/eu-gb/rest/templates/tomcatHelloWorld/cachedIcon/large/0"
+  },
+  {
+    "title": "Application",
+    "icon": "https://raw.githubusercontent.com/IBM-Design/icons/master/dist/svg/object-based/application_64.svg",
+    "color": "1a8572"
+  },
+  {
+    "title": "User",
+    "icon": "https://raw.githubusercontent.com/IBM-Design/icons/master/dist/svg/object-based/user_64.svg",
+    "color": "1a8572"
+  },
+  {
+    "title": "Mobile",
+    "icon": "https://raw.githubusercontent.com/IBM-Design/icons/master/dist/svg/object-based/mobile-phone_64.svg",
+    "color": "1a8572"
+  }
+]
