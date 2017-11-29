@@ -64,6 +64,18 @@
     "icon": "https://ace-catalog-production-red.cdn.eu-gb.s-bluemix.net/catalog/image/eu-gb/rest/templates/tomcatHelloWorld/cachedIcon/large/0"
   },
   {
+    "title": "nginx",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg"
+  },
+  {
+    "title": "MySQL",
+    "icon": "https://cdn.worldvectorlogo.com/logos/mysql-4.svg"
+  },
+  {
+    "title": "PHP",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"
+  },
+  {
     "title": "Application",
     "icon": "https://raw.githubusercontent.com/IBM-Design/icons/master/dist/svg/object-based/application_64.svg",
     "color": "1a8572"
