@@ -7,9 +7,9 @@ function generate(pptx, configuration, onComplete) {
   // additional icons
   const moreIcons = JSON.parse(fs.readFileSync('architecture-icons.json', 'utf8'));
   moreIcons.forEach((icon) => {
-    let iconFilename = `public/generated/icons/${icon.title}.png`;
-    if (fs.existsSync(iconFilename)) {
-      icon.icon = iconFilename;
+    icon.pathOnDisk = `public/generated/icons/${icon.title}-${encodeURIComponent(icon.icon)}.png`;
+    if (fs.existsSync(icon.pathOnDisk)) {
+      icon.icon = icon.pathOnDisk;
     }
   });
 
@@ -17,11 +17,11 @@ function generate(pptx, configuration, onComplete) {
   moreIcons.forEach((icon) => {
     if (icon.icon.startsWith("http")) {
       tasks.push((callback) => {
-        imageHelper.downloadImage(icon.icon, `public/generated/icons/${icon.title}`, icon.color ? `#${icon.color}` : null, (err) => {
+        imageHelper.downloadImage(icon.icon, icon.pathOnDisk.substring(0, icon.pathOnDisk.length - 4), icon.color ? `#${icon.color}` : null, (err) => {
           if (err) {
             console.log(err);
           }
-          icon.icon = `public/generated/icons/${icon.title}.png`;
+          icon.icon = icon.pathOnDisk;
           callback(null);
         });
       });
