@@ -4,7 +4,9 @@ const imageHelper = require('../lib/image-helper');
 const pageHelper = require('../lib/page-helper');
 
 function generate(pptx, configuration, onComplete) {
-  // additional icons
+  const tasks = [];
+  
+  // additional manually added icons
   const moreIcons = JSON.parse(fs.readFileSync('architecture-icons.json', 'utf8'));
   moreIcons.forEach((icon) => {
     icon.pathOnDisk = `public/generated/icons/${icon.title}-${encodeURIComponent(icon.icon)}.png`;
@@ -13,7 +15,6 @@ function generate(pptx, configuration, onComplete) {
     }
   });
 
-  const tasks = [];
   moreIcons.forEach((icon) => {
     if (icon.icon.startsWith("http")) {
       tasks.push((callback) => {
@@ -28,8 +29,31 @@ function generate(pptx, configuration, onComplete) {
     }
   });
 
-  async.parallel(tasks, (err) => {
+  // automatic icons
+  fs.readdirSync('icons/namedsvg').forEach((iconFilename) => {
+    tasks.push((callback) => {
+      if (!iconFilename.endsWith('.svg')) {
+        callback(null);
+        return;
+      }
+
+      imageHelper.convertSvgImage(`icons/namedsvg/${iconFilename}`, null, (err, pngImageFilename) => {
+        if (err) {
+          callback(err);
+        } else {
+          moreIcons.push({
+            icon: pngImageFilename,
+            title: iconFilename.substring(0, iconFilename.lastIndexOf('.')),
+          });
+          callback(null);
+        }
+      });
+    });
+  });
+
+  async.parallelLimit(tasks, 5, (err) => {
     if (err) {
+      console.log(err);
       onComplete(err);
     } else {
       pageHelper.addIcons(pptx, configuration, moreIcons);  
