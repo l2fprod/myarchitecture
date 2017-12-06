@@ -30,13 +30,8 @@ function generate(pptx, configuration, onComplete) {
   });
 
   // automatic icons
-  fs.readdirSync('icons/namedsvg').sort().forEach((iconFilename) => {
+  fs.readdirSync('icons/namedsvg').filter(filename => filename.endsWith('.svg')).sort().forEach((iconFilename) => {
     tasks.push((callback) => {
-      if (!iconFilename.endsWith('.svg')) {
-        callback(null);
-        return;
-      }
-
       imageHelper.convertSvgImage(`icons/namedsvg/${iconFilename}`, null, (err, pngImageFilename) => {
         if (err) {
           callback(err);
