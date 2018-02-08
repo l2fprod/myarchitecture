@@ -93,5 +93,9 @@
   {
     "title": "GIT",
     "icon": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+  },
+  {
+    "title": "Spring Boot",
+    "icon": "https://spring.io/img/homepage/icon-spring-boot.svg"
   }
 ]
