@@ -25,43 +25,43 @@
   },
   {
     "title": "Liberty for Java",
-    "icon": "https://resource-catalog.bluemix.net/api/v1/javaHelloWorld/artifacts/rest/templates/javaHelloWorld/cachedIcon/medium/0"
+    "icon": "https://resource-catalog.bluemix.net/api/v1/javaHelloWorld/artifacts/rest/templates/javaHelloWorld/cachedIcon/large/0"
   },
   {
     "title": "SDK for Node.js",
-    "icon": "https://resource-catalog.bluemix.net/api/v1/nodejsHelloWorld/artifacts/rest/templates/nodejsHelloWorld/cachedIcon/medium/0"
+    "icon": "https://resource-catalog.bluemix.net/api/v1/nodejsHelloWorld/artifacts/rest/templates/nodejsHelloWorld/cachedIcon/large/0"
   },
   {
     "title": "ASP.NET Core",
-    "icon": "https://resource-catalog.bluemix.net/api/v1/dotnetHelloWorld/artifacts/rest/templates/dotnetHelloWorld/cachedIcon/medium/0"
+    "icon": "https://resource-catalog.bluemix.net/api/v1/dotnetHelloWorld/artifacts/rest/templates/dotnetHelloWorld/cachedIcon/large/0"
   },
   {
     "title": "Runtime for Swift",
-    "icon": "https://resource-catalog.bluemix.net/api/v1/swifthelloworld/artifacts/rest/templates/swifthelloworld/cachedIcon/medium/0"
+    "icon": "https://resource-catalog.bluemix.net/api/v1/swifthelloworld/artifacts/rest/templates/swifthelloworld/cachedIcon/large/0"
   },
   {
     "title": "XPages",
-    "icon": "https://resource-catalog.bluemix.net/api/v1/xspHelloWorld/artifacts/rest/templates/xspHelloWorld/cachedIcon/medium/0"
+    "icon": "https://resource-catalog.bluemix.net/api/v1/xspHelloWorld/artifacts/rest/templates/xspHelloWorld/cachedIcon/large/0"
   },
   {
     "title": "Go",
-    "icon": "https://resource-catalog.bluemix.net/api/v1/goHelloWorld/artifacts/rest/templates/goHelloWorld/cachedIcon/medium/0"
+    "icon": "https://resource-catalog.bluemix.net/api/v1/goHelloWorld/artifacts/rest/templates/goHelloWorld/cachedIcon/large/0"
   },
   {
     "title": "PHP",
-    "icon": "https://resource-catalog.bluemix.net/api/v1/phpHelloWorld/artifacts/rest/templates/phpHelloWorld/cachedIcon/medium/0"
+    "icon": "https://resource-catalog.bluemix.net/api/v1/phpHelloWorld/artifacts/rest/templates/phpHelloWorld/cachedIcon/large/0"
   },
   {
     "title": "Python",
-    "icon": "https://resource-catalog.bluemix.net/api/v1/pythonHelloWorld/artifacts/rest/templates/pythonHelloWorld/cachedIcon/medium/0"
+    "icon": "https://resource-catalog.bluemix.net/api/v1/pythonHelloWorld/artifacts/rest/templates/pythonHelloWorld/cachedIcon/large/0"
   },
   {
     "title": "Ruby",
-    "icon": "https://resource-catalog.bluemix.net/api/v1/rubyHelloWorld/artifacts/rest/templates/rubyHelloWorld/cachedIcon/medium/0"
+    "icon": "https://resource-catalog.bluemix.net/api/v1/rubyHelloWorld/artifacts/rest/templates/rubyHelloWorld/cachedIcon/large/0"
   },
   {
     "title": "Tomcat",
-    "icon": "https://resource-catalog.bluemix.net/api/v1/tomcatHelloWorld/artifacts/rest/templates/tomcatHelloWorld/cachedIcon/medium/0"
+    "icon": "https://resource-catalog.bluemix.net/api/v1/tomcatHelloWorld/artifacts/rest/templates/tomcatHelloWorld/cachedIcon/large/0"
   },
   {
     "title": "nginx",
