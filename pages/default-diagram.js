@@ -20,7 +20,7 @@ function generate(pptx, configuration, onComplete) {
     w: 0.01,
     h: 4.5,
     line: configuration.color,
-    line_size: 1.5,
+    lineSize: 1.5,
   });
 
   slide.addText('EXTERNAL', {
@@ -41,7 +41,7 @@ function generate(pptx, configuration, onComplete) {
     w: 0.01,
     h: 4.5,
     line: configuration.color,
-    line_size: 1.5,
+    lineSize: 1.5,
   });
 
   slide.addText('CLOUD', {
