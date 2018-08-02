@@ -511,10 +511,6 @@ is-builtin-module@^1.0.0:
   dependencies:
     builtin-modules "^1.0.0"
 
-is-electron@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/is-electron/-/is-electron-2.1.0.tgz#37dd2e9e7167efa8bafce86c0c25762bc4b851fa"
-
 is-fullwidth-code-point@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/is-fullwidth-code-point/-/is-fullwidth-code-point-1.0.0.tgz#ef9e31386f031a7f0d643af82fde50c457ef00cb"
@@ -556,9 +552,9 @@ jquery@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-2.2.4.tgz#2c89d6889b5eac522a7eea32c14521559c6cbf02"
 
-jquery@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.2.1.tgz#5c4d9de652af6cd0a770154a631bba12b015c787"
+jquery@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
 
 jsbn@~0.1.0:
   version "0.1.1"
@@ -832,14 +828,13 @@ pn@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/pn/-/pn-1.0.0.tgz#1cf5a30b0d806cd18f88fc41a6b5d4ad615b3ba9"
 
-pptxgenjs@^1.10.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/pptxgenjs/-/pptxgenjs-1.10.0.tgz#8bfa953a8cc6bc3490eb0203799b3e7f42bc79b7"
+pptxgenjs@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/pptxgenjs/-/pptxgenjs-2.2.0.tgz#ccc120cd77e58a52210e4d624a72d38f6e527b57"
   dependencies:
     express "^4.15.3"
     image-size ">=0.5.1"
-    is-electron "^2.1.0"
-    jquery "^3.2.1"
+    jquery "^3.3.1"
     jquery-node "^0.3.0"
     jszip ">=3.1.2"
 

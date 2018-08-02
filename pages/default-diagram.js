@@ -2,27 +2,12 @@ function generate(pptx, configuration, onComplete) {
   let slide = pptx.addNewSlide();
   slide.back = configuration.background;
 
-  // the diagram template slide
-  const diagramConfiguration = {
-    font: {
-      size: 9,
-      face: 'Helvetica',
-    },
-    numbers: {
-      size: 0.20,
-      font: {
-        size: 7,
-        face: 'Helvetica',
-      },
-    }
-  };
-
   slide.addText('USER', {
     x: 0.6,
     y: 0.5,
     w: 0.4,
-    font_size: diagramConfiguration.font.size,
-    font_face: diagramConfiguration.font.face,
+    fontSize: configuration.pages.diagram.font.size,
+    fontFace: configuration.pages.diagram.font.face,
     autoFit: true,
     margin: 0,
     color: configuration.color,
@@ -42,8 +27,8 @@ function generate(pptx, configuration, onComplete) {
     x: 2.7,
     y: 0.5,
     w: 0.75,
-    font_size: diagramConfiguration.font.size,
-    font_face: diagramConfiguration.font.face,
+    fontSize: configuration.pages.diagram.font.size,
+    fontFace: configuration.pages.diagram.font.face,
     autoFit: true,
     margin: 0,
     color: configuration.color,
@@ -63,8 +48,8 @@ function generate(pptx, configuration, onComplete) {
     x: 5.7,
     y: 0.5,
     w: 0.75,
-    font_size: diagramConfiguration.font.size,
-    font_face: diagramConfiguration.font.face,
+    fontSize: configuration.pages.diagram.font.size,
+    fontFace: configuration.pages.diagram.font.face,
     autoFit: true,
     margin: 0,
     color: configuration.color,
@@ -78,8 +63,8 @@ function generate(pptx, configuration, onComplete) {
     w: 2,
     h: 0,
     line: configuration.color,
-    line_size: 1,
-    line_tail: 'arrow',
+    lineSize: 1,
+    lineTail: 'arrow',
   });
 
   // a diagonal
@@ -89,8 +74,8 @@ function generate(pptx, configuration, onComplete) {
     w: 1,
     h: 0,
     line: configuration.color,
-    line_size: 1,
-    line_tail: 'arrow',
+    lineSize: 1,
+    lineTail: 'arrow',
     rotate: 45,
   });
 
@@ -101,32 +86,32 @@ function generate(pptx, configuration, onComplete) {
     y: 3,
     w: 1,
     h: 0.3,
-    font_size: diagramConfiguration.font.size,
-    font_face: diagramConfiguration.font.face,
+    fontSize: configuration.pages.diagram.font.size,
+    fontFace: configuration.pages.diagram.font.face,
     color: configuration.color,
     fill: { type: 'solid', color: configuration.background },
     line: configuration.color,
-    line_size: 1,
+    lineSize: 1,
   });
 
   // to number steps
   for (let number = 0; number < 15; number++) {
     slide.addShape(pptx.shapes.OVAL, {
       x: 0.3,
-      y: 1 + (diagramConfiguration.numbers.size + 0.1) * number,
-      w: diagramConfiguration.numbers.size,
-      h: diagramConfiguration.numbers.size,
+      y: 1 + (configuration.pages.diagram.numbers.size + 0.1) * number,
+      w: configuration.pages.diagram.numbers.size,
+      h: configuration.pages.diagram.numbers.size,
       fill: { type: 'solid', color: configuration.background },
-      line: configuration.diagram.numbers.color,
-      line_size: 1.5,
+      line: configuration.pages.diagram.numbers.color,
+      lineSize: 1.5,
     });
     slide.addText(`${number + 1}`, {
       x: 0.3,
-      y: 1 + (diagramConfiguration.numbers.size + 0.1) * number,
-      w: diagramConfiguration.numbers.size,
-      h: diagramConfiguration.numbers.size,
-      font_size: diagramConfiguration.numbers.font.size,
-      font_face: diagramConfiguration.numbers.font.face,
+      y: 1 + (configuration.pages.diagram.numbers.size + 0.1) * number,
+      w: configuration.pages.diagram.numbers.size,
+      h: configuration.pages.diagram.numbers.size,
+      fontSize: configuration.pages.diagram.numbers.font.size,
+      fontFace: configuration.pages.diagram.numbers.font.face,
       align: 'center',
       valign: 'middle',
       autoFit: true,

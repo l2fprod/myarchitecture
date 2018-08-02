@@ -4,7 +4,7 @@
   "dependencies": {
     "async": "^2.6.0",
     "pn": "^1.0.0",
-    "pptxgenjs": "^1.10.0",
+    "pptxgenjs": "2.2.0",
     "request": "^2.83.0",
     "svg2png": "^4.1.1"
   }

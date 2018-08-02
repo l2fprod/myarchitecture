@@ -1,5 +1,6 @@
 const fs = require('fs');
-const pptx = require('pptxgenjs');
+const PptxGenJS = require('pptxgenjs');
+const pptx = new PptxGenJS();
 const async = require('async');
 
 try {
@@ -23,6 +24,9 @@ const configuration = JSON.parse(fs.readFileSync('configuration.json'));
 async.waterfall([
   (callback) => {
     require('./pages/default-diagram').generate(pptx, configuration, callback);
+  },
+  (callback) => {
+    require('./pages/vpc').generate(pptx, configuration, callback);
   },
   (callback) => {
     require('./pages/all-resources').generate(pptx, configuration, callback);

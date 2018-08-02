@@ -13,11 +13,26 @@
   },
   "columnsPerSlide": 9,
   "linesPerSlide": 4,
-  "diagram": {
-    "numbers": {
-      "color": "0C755F"
+
+  "pages": {
+    "diagram": {
+      "font": {
+        "size": 9,
+        "face": "Helvetica"
+      },
+      "numbers": {
+        "color": "0C755F",
+        "size": 0.20,
+        "font": {
+          "size": 7,
+          "face": "Helvetica"
+        }
+      }
+    },
+    "vpc": {
     }
   },
+
   "icon": {
     "background": "FFFFFF",
     "color": "646365"
