@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "dependencies": {
     "async": "^2.6.0",
+    "humanize-string": "^1.0.2",
     "pn": "^1.0.0",
     "pptxgenjs": "2.2.0",
+    "recursive-readdir": "^2.2.2",
     "request": "^2.83.0",
     "svg2png": "^4.1.1"
   }

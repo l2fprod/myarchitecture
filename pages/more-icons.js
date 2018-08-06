@@ -1,5 +1,7 @@
 const async = require('async');
 const fs = require('fs');
+const humanizeString = require('humanize-string');
+
 const imageHelper = require('../lib/image-helper');
 const pageHelper = require('../lib/page-helper');
 
@@ -29,20 +31,47 @@ function generate(pptx, configuration, onComplete) {
     }
   });
 
-  // automatic icons
-  fs.readdirSync('icons/namedsvg').filter(filename => filename.endsWith('.svg')).sort().forEach((iconFilename) => {
+  function addPage(title) {
     tasks.push((callback) => {
-      imageHelper.convertSvgImage(`icons/namedsvg/${iconFilename}`, null, (err, pngImageFilename) => {
-        if (err) {
-          callback(err);
-        } else {
-          moreIcons.push({
-            icon: pngImageFilename,
-            title: iconFilename.substring(0, iconFilename.lastIndexOf('.')),
-          });
-          callback(null);
-        }
+      moreIcons.push({
+        type: 'separator',
+        title,
       });
+      callback(null);
+    });
+  }
+
+  function addFolder(folderName, iconCallback/*icon*/) {
+    fs.readdirSync(folderName).filter(filename => filename.endsWith('.svg')).sort().forEach((iconFilename) => {
+      tasks.push((callback) => {
+        imageHelper.convertSvgImage(`${folderName}/${iconFilename}`, null, (err, pngImageFilename) => {
+          if (err) {
+            callback(err);
+          } else {
+            const icon = {
+              icon: pngImageFilename,
+              title: iconFilename.substring(0, iconFilename.lastIndexOf('.')),
+            };
+            if (iconCallback) {
+              iconCallback(icon);
+            }
+            moreIcons.push(icon);
+            callback(null);
+          }
+        });
+      });
+    });
+  }
+
+  // automatic icons
+  addFolder('icons/namedsvg');
+  fs.readdirSync('icons/refarch')
+    .filter(filename => '.DS_Store'!==filename && fs.statSync(`icons/refarch/${filename}`).isDirectory)
+    .forEach((dir) => {
+    addPage(humanizeString(dir));
+    addFolder(`icons/refarch/${dir}`, (icon) => {
+      icon.standalone = true;
+      icon.title = humanizeString(icon.title);
     });
   });
 
