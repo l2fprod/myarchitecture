@@ -57,6 +57,10 @@ function generateResourceIcons(pptx, configuration, resources, onComplete) {
     if (err) {
       onComplete(err);
     } else {
+      resourceIcons.splice(0, 0, {
+        type: 'separator',
+        title: 'Catalog',
+      });
       pageHelper.addIcons(pptx, configuration, resourceIcons);
       onComplete(null);
     }
