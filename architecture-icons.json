@@ -1,7 +1,7 @@
 [
   {
     "title": "Kubernetes",
-    "icon": "https://us-south.containers.bluemix.net/ui/img/container-service-logo.svg"
+    "icon": "https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png"
   },
   {
     "title": "Container Registry",
@@ -10,10 +10,6 @@
   {
     "title": "Docker",
     "icon": "https://www.docker.com/sites/default/files/vertical_large.png"
-  },
-  {
-    "title": "Cloud Functions",
-    "icon": "https://resource-catalog.bluemix.net/api/v1/openwhisk-service/artifacts/resources/images/whisk/whisk.svg"
   },
   {
     "title": "Schematics",
