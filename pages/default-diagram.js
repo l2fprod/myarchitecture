@@ -2,6 +2,8 @@ function generate(pptx, configuration, onComplete) {
   let slide = pptx.addNewSlide();
   slide.back = configuration.background;
 
+  slide.addNotes(`Generated on ${new Date()}`);
+
   slide.addText('USER', {
     x: 0.6,
     y: 0.5,
