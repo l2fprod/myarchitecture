@@ -29,7 +29,7 @@ function generate(pptx, configuration, onComplete) {
     lineTail: 'arrow',
   });
 
-  slide.addText('VPC', {
+  slide.addText('Region', {
     shape: pptx.shapes.ROUNDED_RECTANGLE,
     x: 2.2,
     y: 0.3,
@@ -46,7 +46,7 @@ function generate(pptx, configuration, onComplete) {
     color: configuration.color,
   });
 
-  slide.addText('Region', {
+  slide.addText('VPC', {
     shape: pptx.shapes.ROUNDED_RECTANGLE,
     x: 2.35,
     y: 0.6,
