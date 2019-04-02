@@ -44,6 +44,7 @@ function generate(pptx, configuration, onComplete) {
     align: 'left',
     valign: 'top',
     color: configuration.color,
+    lineDash: 'sysDot',
   });
 
   slide.addText('VPC', {
@@ -60,7 +61,6 @@ function generate(pptx, configuration, onComplete) {
     lineSize: 1.5,
     align: 'left',
     valign: 'top',
-    lineDash: 'sysDot',
     color: configuration.color,
   });
 
