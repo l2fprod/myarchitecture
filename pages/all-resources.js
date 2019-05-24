@@ -44,7 +44,7 @@ function generateResourceIcons(pptx, configuration, resources, onComplete) {
       tasks.push((callback) => {
         imageHelper.downloadImage(icon.icon, `public/generated/icons/${icon.id}`, null, (err) => {
           if (err) {
-            console.log(err);
+            console.log(`Can't download ${icon.icon}`, err);
           }
           icon.icon = `public/generated/icons/${icon.id}.png`;
           callback(null);
