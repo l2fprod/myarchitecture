@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # build the PPT
-npm install
 node architecture.js
 
 # get the current gh-pages branch
