@@ -32,30 +32,28 @@ function generate(pptx, configuration, onComplete) {
   });
 
   function addPage(title) {
-    tasks.push((callback) => {
-      moreIcons.push({
-        type: 'separator',
-        title,
-      });
-      callback(null);
+    moreIcons.push({
+      type: 'separator',
+      title,
     });
   }
 
   function addFolder(folderName, iconCallback/*icon*/) {
     fs.readdirSync(folderName).filter(filename => filename.endsWith('.svg')).sort().forEach((iconFilename) => {
+      const icon = {
+        icon: iconFilename,
+        title: iconFilename.substring(0, iconFilename.lastIndexOf('.')),
+      };
+      moreIcons.push(icon);
       tasks.push((callback) => {
         imageHelper.convertSvgImage(`${folderName}/${iconFilename}`, null, (err, pngImageFilename) => {
           if (err) {
             callback(err);
           } else {
-            const icon = {
-              icon: pngImageFilename,
-              title: iconFilename.substring(0, iconFilename.lastIndexOf('.')),
-            };
+            icon.icon = pngImageFilename;
             if (iconCallback) {
               iconCallback(icon);
             }
-            moreIcons.push(icon);
             callback(null);
           }
         });
