@@ -23,15 +23,19 @@ const configuration = JSON.parse(fs.readFileSync('configuration.json'));
 
 async.waterfall([
   (callback) => {
+    console.log('Default Diagram...');
     require('./pages/default-diagram').generate(pptx, configuration, callback);
   },
   (callback) => {
+    console.log('VPC Diagram...');
     require('./pages/vpc').generate(pptx, configuration, callback);
   },
   (callback) => {
+    console.log('All resources...');
     require('./pages/all-resources').generate(pptx, configuration, callback);
   },
   (callback) => {
+    console.log('More icons...');
     require('./pages/more-icons').generate(pptx, configuration, callback);    
   }
 ], (err) => {
