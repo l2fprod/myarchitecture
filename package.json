@@ -2,12 +2,12 @@
   "name": "myarchitecture",
   "version": "1.0.0",
   "dependencies": {
-    "async": "2.6.2",
+    "async": "3.1.0",
     "humanize-string": "2.1.0",
     "pn": "1.1.0",
-    "pptxgenjs": "2.5.0",
+    "pptxgenjs": "2.6.0",
     "recursive-readdir": "2.2.2",
     "request": "2.88.0",
-    "svg2png": "4.1.1"
+    "sharp": "^0.23.1"
   }
 }
