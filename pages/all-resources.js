@@ -7,7 +7,7 @@ const pageHelper = require('../lib/page-helper');
 
 function generate(pptx, configuration, onComplete) {
   request({
-    url: 'https://mycatalog-dev.mybluemix.net/generated/resources.json'
+    url: 'https://mycatalog.mybluemix.net/generated/resources.json'
   }, (err, response, body) => {
     if (err) {
       onComplete(err);
@@ -53,7 +53,7 @@ function generateResourceIcons(pptx, configuration, resources, onComplete) {
     }
   });
 
-  async.parallel(tasks, (err) => {
+  async.parallelLimit(tasks, 5, (err) => {
     if (err) {
       onComplete(err);
     } else {
