@@ -16,10 +16,6 @@
     "icon": "icons/schematics_logo_64x64.png"
   },
   {
-    "title": "Kitura Mobile Backend",
-    "icon": "https://www.ibm.com/cloud-computing/bluemix/sites/default/files/assets/page/catalog-swift.svg"
-  },
-  {
     "title": "Liberty for Java",
     "icon": "https://resource-catalog.bluemix.net/api/v1/javaHelloWorld/artifacts/rest/templates/javaHelloWorld/cachedIcon/large/0"
   },
@@ -34,10 +30,6 @@
   {
     "title": "Runtime for Swift",
     "icon": "https://resource-catalog.bluemix.net/api/v1/swifthelloworld/artifacts/rest/templates/swifthelloworld/cachedIcon/large/0"
-  },
-  {
-    "title": "XPages",
-    "icon": "https://resource-catalog.bluemix.net/api/v1/xspHelloWorld/artifacts/rest/templates/xspHelloWorld/cachedIcon/large/0"
   },
   {
     "title": "Go",
@@ -72,26 +64,11 @@
     "icon": "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"
   },
   {
-    "title": "Application",
-    "icon": "https://raw.githubusercontent.com/IBM-Design/icons/master/dist/svg/object-based/application_64.svg",
-    "color": "1a8572"
-  },
-  {
-    "title": "User",
-    "icon": "https://raw.githubusercontent.com/IBM-Design/icons/master/dist/svg/object-based/user_64.svg",
-    "color": "1a8572"
-  },
-  {
-    "title": "Mobile",
-    "icon": "https://raw.githubusercontent.com/IBM-Design/icons/master/dist/svg/object-based/mobile-phone_64.svg",
-    "color": "1a8572"
-  },
-  {
     "title": "GIT",
     "icon": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
   },
   {
     "title": "Spring Boot",
-    "icon": "https://spring.io/img/homepage/icon-spring-boot.svg"
+    "icon": "https://www.vectorlogo.zone/logos/springio/springio-icon.svg"
   }
 ]
