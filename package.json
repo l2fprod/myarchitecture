@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "dependencies": {
     "async": "3.1.0",
+    "html-entities": "^1.2.1",
     "humanize-string": "2.1.0",
+    "pako": "^1.0.10",
     "pn": "1.1.0",
     "pptxgenjs": "2.6.0",
     "recursive-readdir": "2.2.2",

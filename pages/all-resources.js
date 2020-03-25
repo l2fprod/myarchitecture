@@ -7,50 +7,44 @@ const pageHelper = require('../lib/page-helper');
 
 function generate(pptx, configuration, onComplete) {
   request({
-    url: 'https://mycatalog.mybluemix.net/generated/resources.json'
+    url: 'https://mycatalog.mybluemix.net/generated/resources-full.json'
   }, (err, response, body) => {
     if (err) {
       onComplete(err);
     } else {
-      fs.writeFile('public/generated/resources.json', body, (err) => {
+      fs.writeFile('public/generated/resources-full.json', body, (err) => {
         if (err) {
           onComplete(err);
         } else {
-          const resources = JSON.parse(fs.readFileSync('public/generated/resources.json', { encoding: 'UTF-8' }));
-          generateResourceIcons(pptx, configuration, resources, onComplete);
+          const resources = JSON.parse(fs.readFileSync('public/generated/resources-full.json', { encoding: 'UTF-8' }));
+          downloadResourceIcons(pptx, configuration, resources, onComplete);
         }
       });
     }
   });
 }
 
-function generateResourceIcons(pptx, configuration, resources, onComplete) {
-  const resourceIcons = resources.map((resource) => {
-    let iconFilename = `public/generated/icons/${resource.id}.png`;
-    if (!fs.existsSync(iconFilename)) {
-      iconFilename = resource.imageUrl;
-    }
-    return {
-      id: resource.id,
-      title: resource.displayName,
-      icon: iconFilename,
-    }
-  });
-
-  // additional icons
+function downloadResourceIcons(pptx, configuration,resources, onComplete) {
+  console.log('Downloading all resource icons from mycatalog...');
   const tasks = [];
-  resourceIcons.forEach((icon) => {
-    if (icon.icon.startsWith("http")) {
+  const resourceIcons = [];
+  resources.forEach((resource) => {
+    if (resource.localPngIcon && !fs.existsSync(resource.localPngIcon)) {
       tasks.push((callback) => {
-        imageHelper.downloadImage(icon.icon, `public/generated/icons/${icon.id}`, null, (err) => {
-          if (err) {
-            console.log(`Can't download ${icon.icon}`, err);
-          }
-          icon.icon = `public/generated/icons/${icon.id}.png`;
-          callback(null);
-        });
+        imageHelper.downloadRaw(`https://mycatalog.mybluemix.net/${resource.localPngIcon.substring('public/'.length)}`, resource.localPngIcon, callback);
       });
     }
+    if (resource.localSvgIcon && !fs.existsSync(resource.localSvgIcon)) {
+      tasks.push((callback) => {
+        imageHelper.downloadRaw(`https://mycatalog.mybluemix.net/${resource.localSvgIcon.substring('public/'.length)}`, resource.localSvgIcon, callback);
+      });
+    }
+
+    resourceIcons.push({
+      id: resource.id,
+      title: resource.displayName,
+      icon: `public/generated/icons/${resource.id}.png`,
+    })
   });
 
   async.parallelLimit(tasks, 5, (err) => {
