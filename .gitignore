@@ -4,3 +4,4 @@ public
 build
 icons/namedsvg/*.png
 icons/refarch/*/*.png
+drawio.xml
