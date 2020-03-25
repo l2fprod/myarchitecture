@@ -9,9 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0="
     crossorigin="anonymous" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <!-- Bulma Version 0.6.0 -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css" integrity="sha256-HEtF7HLJZSC3Le1HcsWbz1hDYFPZCqDhZa9QsCgVUdw="
-    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.1/css/bulma.min.css" integrity="sha256-1nEaE91OpXJD7M6W5uSiqxhdmrY+lOOTHC1iUxU9Pds=" crossorigin="anonymous" />
   <style type="text/css">
     html,
     body {
@@ -28,8 +26,8 @@
       50% {
         left: -100%;
       }
-      60% {
-        left: -100%
+      90% {
+        left: -200%
       }
     }
 
@@ -88,9 +86,10 @@
           <div class="column is-5">
             <div id="slider">
               <figure class="is-4by3">
-                  <img src="hero.png" alt>
-                  <img src="example.png" alt>
-                </figure>
+                <img src="hero.png" alt>
+                <img src="drawio.png" alt>
+                <img src="example.png" alt>
+              </figure>
             </div>
           </div>
           <div class="column is-6 is-offset-1">
@@ -98,23 +97,32 @@
               a template for
               <br/> architecture diagram
             </h1>
-            <h2 class="subtitle is-4">
-              inspired by the
-              <a href="https://developer.ibm.com/code/">Cloud patterns</a>
-            </h2>
-            <br>
             <p class="has-text-centered">
-              <a href="mycatalog-architecture-diagram-template.pptx" class="button is-medium is-link is-outlined">
+              <a href="mycatalog-architecture-diagram-template.pptx" class="button is-medium is-link is-danger">
                 <i class="fa fa-download"></i>&nbsp;Download for Powerpoint
               </a>
             </p>
+            <br>
+            <h1 class="title is-2">
+              a draw.io icon library
+            </h1>
+            <p class="has-text-centered">
+              <a href="drawio.xml" class="button is-medium is-link is-warning">
+                <i class="fa fa-download"></i>&nbsp;Save As... for draw.io
+              </a>
+            </p>
+            <br/>
+            <div class="notification is-warning is-light has-text-left">
+              If you use draw.io Desktop, save the file and use <b>File &gt; Open Library...</b>.
+              For draw.io web app, use <b>File &gt; Open Library From...</b> and pick Device or point to the <a href="drawio.xml">draw.io library URL</a> directly.
+            </div>
           </div>
         </div>
         <div class="columns is-vcentered">
           <div class="column is-5">
           </div>
           <div class="column is-6 is-offset-1 has-text-justified has-text-grey-light">
-            This template is automatically generated from the list of services found in mycatalog.
+            These artifacts are automatically generated from the list of services found in <a href="https://mycatalog.mybluemix.net">mycatalog</a>.
           </div>
         </div>
       </div>
