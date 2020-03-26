@@ -95,7 +95,7 @@ function DrawIOLibrary() {
 <mxCell id="0"/>
 <mxCell id="1" parent="0"/>
 <mxCell id="2" value=""
-	style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=${imageData};strokeColor=#4277BB;strokeWidth=2;" vertex="1" parent="1">
+	style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;fontSize=12;spacingTop=3;image;image=${imageData};strokeColor=#4277BB;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
 	<mxGeometry x="290" y="110" width="60" height="60" as="geometry"/>
 </mxCell>
 </root>
