@@ -70,5 +70,9 @@
   {
     "title": "Spring Boot",
     "icon": "https://www.vectorlogo.zone/logos/springio/springio-icon.svg"
+  },
+  {
+    "title": "Cloud Foundry",
+    "icon": "https://raw.githubusercontent.com/cloudfoundry/logos/master/CF_Icon_4-colour.svg"
   }
 ]
