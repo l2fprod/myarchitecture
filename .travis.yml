@@ -4,7 +4,7 @@ node_js:
 
 branches:
   only:
-  - master
+  - non_existent
 
 script:
   - echo "Current branch is ${TRAVIS_PULL_REQUEST_BRANCH:-$TRAVIS_BRANCH}"
