@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # build the PPT
+yarn
 node architecture.js
 node -e "require('./drawio.js')().generate('drawio.xml')"
 
