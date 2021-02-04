@@ -160,6 +160,17 @@ function DrawIOLibrary() {
       }
     });
     
+    function addFolder(folderName) {
+      fs.readdirSync(folderName).filter(filename => filename.endsWith('.svg')).sort().forEach((iconFilename) => {
+        const icon = {
+          icon: `${folderName}/${iconFilename}`,
+          title: iconFilename.substring(0, iconFilename.lastIndexOf('.')),
+        };
+        resourceIcons.push(self.makeIcon(icon.title, icon.icon, true));
+      });
+    }
+    addFolder('icons/namedsvg');
+
     const moreIcons = JSON.parse(fs.readFileSync('architecture-icons.json', 'utf8'));
     moreIcons.forEach(icon => {
     	let svgPathOnDisk, pngPathOnDisk;

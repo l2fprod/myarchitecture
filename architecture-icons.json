@@ -74,9 +74,5 @@
   {
     "title": "Cloud Foundry",
     "icon": "https://raw.githubusercontent.com/cloudfoundry/logos/master/CF_Icon_4-colour.svg"
-  },
-  {
-    "title": "Cloud Shell",
-    "icon": "icons/Cloud Shell.svg"
   }
 ]
