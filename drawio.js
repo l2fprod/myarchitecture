@@ -83,6 +83,10 @@ function DrawIOLibrary() {
   const entities = new Entities();
 
   self.makeIcon = function(iconTitle, iconFilename, isSvg, link) {
+    if (!fs.existsSync(iconFilename)) {
+      return null;
+    }
+
     const imageContent = fs.readFileSync(iconFilename);
     const imageContentBase64 = imageContent.toString('base64');
     const imageData = isSvg ?
@@ -147,16 +151,22 @@ function DrawIOLibrary() {
 
     const resourceIcons = [];
     resources.forEach(resource => {
-      if (!resource.localPngIcon && !resource.localSvgIcon) {
-        console.log('No icon for', resource.displayName);
-      } else {
-        const link = (resource.kind === 'service') ?
-          `https://cloud.ibm.com/catalog/services/${resource.name}` :
-          `https://cloud.ibm.com/catalog/infrastructure/${resource.name}`;
-        resourceIcons.push(
-          self.makeIcon(resource.displayName,
+      try {
+        if (!resource.localPngIcon && !resource.localSvgIcon) {
+          console.log('No icon for', resource.displayName);
+        } else {
+          const link = (resource.kind === 'service') ?
+            `https://cloud.ibm.com/catalog/services/${resource.name}` :
+            `https://cloud.ibm.com/catalog/infrastructure/${resource.name}`;
+          const icon = self.makeIcon(resource.displayName,
             resource.localSvgIcon ? resource.localSvgIcon : resource.localPngIcon,
-            resource.localSvgIcon, link));
+            resource.localSvgIcon, link);
+          if (icon) {
+            resourceIcons.push(icon);
+          }
+        }
+      } catch (err) {
+        console.log("Failed", err);
       }
     });
     
