@@ -191,11 +191,16 @@ function DrawIOLibrary() {
     		svgPathOnDisk = icon.icon.replace('.png', '.svg');
     		pngPathOnDisk = icon.icon.replace('.svg', '.png');	
     	}
-    	if (fs.existsSync(svgPathOnDisk)) {
-    		resourceIcons.push(self.makeIcon(icon.title, svgPathOnDisk, true));
-    	} else {
-    		resourceIcons.push(self.makeIcon(icon.title, pngPathOnDisk, false));
+
+      let iconFile = self.makeIcon(icon.title, svgPathOnDisk, true);
+      if (!iconFile) {
+        iconFile = self.makeIcon(icon.title, pngPathOnDisk, false);
     	}
+      if (iconFile) {
+        resourceIcons.push(iconFile);
+      } else {
+        console.log('No icon for', icon.title);
+      }
     });
 
     fs.writeFileSync(outputFilename, `<mxlibrary title="IBM Cloud Catalog">${JSON.stringify(resourceIcons, null, null)}</mxlibrary>`);
