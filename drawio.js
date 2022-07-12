@@ -159,7 +159,7 @@ function DrawIOLibrary() {
             `https://cloud.ibm.com/catalog/services/${resource.name}` :
             `https://cloud.ibm.com/catalog/infrastructure/${resource.name}`;
           const icon = self.makeIcon(resource.displayName,
-            resource.localSvgIcon ? resource.localSvgIcon : resource.localPngIcon,
+            './public/' + (resource.localSvgIcon ? resource.localSvgIcon : resource.localPngIcon),
             resource.localSvgIcon, link);
           if (icon) {
             resourceIcons.push(icon);

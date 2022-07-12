@@ -7,7 +7,7 @@ const pageHelper = require('../lib/page-helper');
 
 function generate(pptx, configuration, onComplete) {
   request({
-    url: 'https://mycatalog.mybluemix.net/generated/resources-full.json'
+    url: 'https://mycatalog.weworkinthecloud.com/generated/resources-full.json'
   }, (err, response, body) => {
     if (err) {
       onComplete(err);
@@ -31,12 +31,12 @@ function downloadResourceIcons(pptx, configuration,resources, onComplete) {
   resources.forEach((resource) => {
     if (resource.localPngIcon && !fs.existsSync(resource.localPngIcon)) {
       tasks.push((callback) => {
-        imageHelper.downloadRaw(`https://mycatalog.mybluemix.net/${resource.localPngIcon.substring('public/'.length)}`, resource.localPngIcon, callback);
+        imageHelper.downloadRaw(`https://mycatalog.weworkinthecloud.com/${resource.localPngIcon}`, './public/' + resource.localPngIcon, callback);
       });
     }
     if (resource.localSvgIcon && !fs.existsSync(resource.localSvgIcon)) {
       tasks.push((callback) => {
-        imageHelper.downloadRaw(`https://mycatalog.mybluemix.net/${resource.localSvgIcon.substring('public/'.length)}`, resource.localSvgIcon, callback);
+        imageHelper.downloadRaw(`https://mycatalog.weworkinthecloud.com/${resource.localSvgIcon}`, './public/' + resource.localSvgIcon, callback);
       });
     }
 
