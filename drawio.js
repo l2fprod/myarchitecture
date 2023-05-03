@@ -105,7 +105,7 @@ function DrawIOLibrary() {
       <mxGeometry width="48" height="48" as="geometry" />
     </mxCell>
     <mxCell id="4" value="" style="editable=0;moveable=0;rounded=0;shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=${imageData};imageBorder=none;perimeterSpacing=0;imageBackground=none;sketch=0;connectable=0;allowArrows=0;" vertex="1" parent="2">
-      <mxGeometry x="14" y="14" width="20" height="20" as="geometry" />
+      <mxGeometry x="12" y="12" width="24" height="24" as="geometry" />
     </mxCell>
   </root>
 </mxGraphModel>`.replace(/  /g, '').replace(/\n/g, '');
