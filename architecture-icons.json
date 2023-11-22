@@ -4,52 +4,8 @@
     "icon": "https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.png"
   },
   {
-    "title": "Container Registry",
-    "icon": "https://resource-catalog.bluemix.net/api/v1/public.bluemix.container.registry/artifacts/static/logo/icon_32px.png"
-  },
-  {
     "title": "Docker",
     "icon": "https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png"
-  },
-  {
-    "title": "Schematics",
-    "icon": "icons/schematics_logo_64x64.png"
-  },
-  {
-    "title": "Liberty for Java",
-    "icon": "https://resource-catalog.bluemix.net/api/v1/javaHelloWorld/artifacts/rest/templates/javaHelloWorld/cachedIcon/large/0"
-  },
-  {
-    "title": "SDK for Node.js",
-    "icon": "https://resource-catalog.bluemix.net/api/v1/nodejsHelloWorld/artifacts/rest/templates/nodejsHelloWorld/cachedIcon/large/0"
-  },
-  {
-    "title": "ASP.NET Core",
-    "icon": "https://resource-catalog.bluemix.net/api/v1/dotnetHelloWorld/artifacts/rest/templates/dotnetHelloWorld/cachedIcon/large/0"
-  },
-  {
-    "title": "Runtime for Swift",
-    "icon": "https://resource-catalog.bluemix.net/api/v1/swifthelloworld/artifacts/rest/templates/swifthelloworld/cachedIcon/large/0"
-  },
-  {
-    "title": "Go",
-    "icon": "https://resource-catalog.bluemix.net/api/v1/goHelloWorld/artifacts/rest/templates/goHelloWorld/cachedIcon/large/0"
-  },
-  {
-    "title": "PHP",
-    "icon": "https://resource-catalog.bluemix.net/api/v1/phpHelloWorld/artifacts/rest/templates/phpHelloWorld/cachedIcon/large/0"
-  },
-  {
-    "title": "Python",
-    "icon": "https://resource-catalog.bluemix.net/api/v1/pythonHelloWorld/artifacts/rest/templates/pythonHelloWorld/cachedIcon/large/0"
-  },
-  {
-    "title": "Ruby",
-    "icon": "https://resource-catalog.bluemix.net/api/v1/rubyHelloWorld/artifacts/rest/templates/rubyHelloWorld/cachedIcon/large/0"
-  },
-  {
-    "title": "Tomcat",
-    "icon": "https://resource-catalog.bluemix.net/api/v1/tomcatHelloWorld/artifacts/rest/templates/tomcatHelloWorld/cachedIcon/large/0"
   },
   {
     "title": "nginx",
@@ -58,10 +14,6 @@
   {
     "title": "MySQL",
     "icon": "https://cdn.worldvectorlogo.com/logos/mysql-4.svg"
-  },
-  {
-    "title": "PHP",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"
   },
   {
     "title": "GIT",
@@ -74,5 +26,9 @@
   {
     "title": "Cloud Foundry",
     "icon": "https://raw.githubusercontent.com/cloudfoundry/logos/master/CF_Icon_4-colour.svg"
+  },
+  {
+    "title": "PHP",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"
   }
 ]

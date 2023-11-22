@@ -6,11 +6,10 @@
     "html-entities": "^1.2.1",
     "humanize-string": "2.1.0",
     "pako": "^1.0.10",
-    "pn": "1.1.0",
     "pptxgenjs": "2.6.0",
-    "recursive-readdir": "2.2.2",
+    "recursive-readdir": "2.2.3",
     "request": "2.88.0",
-    "sharp": "0.30.4",
+    "sharp": "0.32.6",
     "svg2png": "4.1.1"
   }
 }
