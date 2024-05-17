@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>intrusion-prevention</title>
+    <g id="V2-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IBM-/-Cloud-/-Security" transform="translate(-1254, -13)">
+            <g id="intrusion-prevention" transform="translate(1254, 13)">
+                <rect id="Rectangle" fill="#FA4D56" x="0" y="0" width="48" height="48"></rect>
+                <g transform="translate(11, 12)">
+                    <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="16.5" cy="17.9154" r="1.5"></circle>
+                    <path d="M22.332675,17.608875 C21.3853401,15.1958754 19.0910741,13.5796611 16.5,13.5 C13.9089259,13.5796611 11.6146599,15.1958754 10.667325,17.608875 L10.5,18 L10.667325,18.391125 C11.6146599,20.8041246 13.9089259,22.4203389 16.5,22.5 C19.0910741,22.4203389 21.3853401,20.8041246 22.332675,18.391125 L22.5,18 L22.332675,17.608875 Z M16.5,21 C14.8431458,21 13.5,19.6568542 13.5,18 C13.5,16.3431458 14.8431458,15 16.5,15 C18.1568542,15 19.5,16.3431458 19.5,18 C19.49814,19.6560832 18.1560832,20.99814 16.5,21 L16.5,21 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path d="M18.75,7.5 L3,7.5 C2.17193272,7.4991319 1.5008681,6.82806728 1.5,6 L1.5,3 C1.5008681,2.17193272 2.17193272,1.5008681 3,1.5 L18.75,1.5 C19.5780673,1.5008681 20.2491319,2.17193272 20.25,3 L20.25,6 C20.2491319,6.82806728 19.5780673,7.4991319 18.75,7.5 L18.75,7.5 Z M3,3 L3,6 L18.75,6 L18.75,3 L3,3 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path d="M9,21 L3,21 L3,18 L9,18 L9,16.5 L3,16.5 C2.17196695,16.5009506 1.5009506,17.1719669 1.5,18 L1.5,21 C1.5009506,21.8280331 2.17196695,22.4990494 3,22.5 L9,22.5 L9,21 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path d="M21,9 L5.25,9 C4.42196695,9.0009506 3.7509506,9.67196695 3.75,10.5 L3.75,13.5 C3.7509506,14.3280331 4.42196695,14.9990494 5.25,15 L9,15 L9,13.5 L5.25,13.5 L5.25,10.5 L21,10.5 L21.000525,12 L22.5,12 L22.5,10.5 C22.4990494,9.67196695 21.8280331,9.0009506 21,9 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <rect id="_Transparent_Rectangle_" x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>subnet-acl-rules(1)</title>
+    <g id="V2-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IBM-/-Cloud-/-Security" transform="translate(-65, -77)">
+            <g id="subnet-acl-rules(1)" transform="translate(65, 77)">
+                <rect id="Rectangle" fill="#FA4D56" x="0" y="0" width="48" height="48"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="25.5" y="22.5" width="9" height="1.5"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="25.5" y="26.25" width="6" height="1.5"></rect>
+                <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="25.5" y="18.75" width="9" height="1.5"></rect>
+                <path d="M28.5,30 L28.5,33 L16.5,33 L16.5,24 L22.5,24 L22.5,22.5 L19.5,22.5 L19.5,18 C19.5001899,16.5792058 20.4968234,15.3533015 21.8876587,15.0630718 C23.2784941,14.772842 24.6822311,15.4978539 25.250625,16.8 L26.625375,16.2 C25.7726087,14.2471923 23.6672581,13.160027 21.5813112,13.5953361 C19.4953643,14.0306453 18.0005545,15.8691157 18,18 L18,22.5 L16.5,22.5 C15.6719669,22.5009506 15.0009506,23.1719669 15,24 L15,33 C15.0009506,33.8280331 15.6719669,34.4990494 16.5,34.5 L28.5,34.5 C29.3280331,34.4990494 29.9990494,33.8280331 30,33 L30,30 L28.5,30 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <rect id="_Transparent_Rectangle_" x="12" y="12" width="24" height="24"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

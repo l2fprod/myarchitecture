@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>encryption</title>
+    <g id="V2-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IBM-/-Cloud-/-Security" transform="translate(-853, -13)">
+            <g id="encryption" transform="translate(853, 13)">
+                <rect id="Rectangle" fill="#FA4D56" x="0" y="0" width="48" height="48"></rect>
+                <g transform="translate(12, 12)">
+                    <path d="M21.75,15.958725 L21.75,14.25 C21.75,12.5931458 20.4068542,11.25 18.75,11.25 C17.0931458,11.25 15.75,12.5931458 15.75,14.25 L15.75,15.958725 C15.2875623,16.2245508 15.001766,16.7166063 15,17.25 L15,21 C15.0010331,21.8279988 15.6720012,22.4989669 16.5,22.5 L21,22.5 C21.8279988,22.4989669 22.4989669,21.8279988 22.5,21 L22.5,17.25 C22.498234,16.7166063 22.2124377,16.2245508 21.75,15.958725 Z M18.75,12.75 C19.5779988,12.7510331 20.2489669,13.4220012 20.25,14.25 L20.25,15.75 L17.25,15.75 L17.25,14.25 C17.2510331,13.4220012 17.9220012,12.7510331 18.75,12.75 L18.75,12.75 Z M16.5,21 L16.5,17.25 L21,17.25 L21,21 L16.5,21 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="1.5" y="1.5" width="1.5" height="3"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="10.5" y="1.5" width="1.5" height="3"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="13.5" y="1.5" width="1.5" height="3"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="1.5" y="6" width="1.5" height="6"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="1.5" y="13.5" width="1.5" height="6"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="10.5" y="13.5" width="1.5" height="6"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="4.5" y="6" width="1.5" height="6"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="13.5" y="6" width="1.5" height="4.5"></rect>
+                    <path d="M7.5,19.5 L6,19.5 C5.17196695,19.4990494 4.5009506,18.8280331 4.5,18 L4.5,15 C4.5009506,14.1719669 5.17196695,13.5009506 6,13.5 L7.5,13.5 C8.32803305,13.5009506 8.9990494,14.1719669 9,15 L9,18 C8.9990494,18.8280331 8.32803305,19.4990494 7.5,19.5 Z M6,15 L6,18 L7.5,18 L7.5,15 L6,15 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path d="M10.5,12 L9,12 C8.17196695,11.9990494 7.5009506,11.3280331 7.5,10.5 L7.5,7.5 C7.5009506,6.67196695 8.17196695,6.0009506 9,6 L10.5,6 C11.3280331,6.0009506 11.9990494,6.67196695 12,7.5 L12,10.5 C11.9990494,11.3280331 11.3280331,11.9990494 10.5,12 Z M9,7.5 L9,10.5 L10.5,10.5 L10.5,7.5 L9,7.5 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path d="M7.5,4.5 L6,4.5 C5.17196695,4.4990494 4.5009506,3.82803305 4.5,3 L4.5,1.5 L6,1.5 L6,3 L7.5,3 L7.5,1.5 L9,1.5 L9,3 C8.9990494,3.82803305 8.32803305,4.4990494 7.5,4.5 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <rect id="_Transparent_Rectangle_" x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
