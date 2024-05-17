@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>session-border-control</title>
+    <g id="V2-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IBM-/-Cloud-/-Security" transform="translate(-724, -77)">
+            <g id="session-border-control" transform="translate(724, 77)">
+                <polygon id="Fill-4" fill="#FA4D56" points="0 48 48 48 48 0 0 0"></polygon>
+                <g transform="translate(12, 12)">
+                    <path d="M19.5,6 L18.4425,7.0575 L20.3775,9 L12,9 C10.8914645,9.00015698 9.82243783,9.41173226 9,10.155 L9,5.1225 L10.9425,7.0575 L12,6 L8.25,2.25 L4.5,6 L5.5575,7.0575 L7.5,5.1225 L7.5,13.5 C7.50029991,14.6085089 7.91185611,15.677486 8.655,16.5 L3.6225,16.5 L5.5575,14.5575 L4.5,13.5 L0.75,17.25 L4.5,21 L5.5575,19.9425 L3.6225,18 L12,18 C13.776066,18.0030507 15.3872067,16.959466 16.1106429,15.3374117 C16.8340791,13.7153575 16.5339901,11.8193643 15.345,10.5 L20.3775,10.5 L18.4425,12.4425 L19.5,13.5 L23.25,9.75 L19.5,6 Z M15,13.5 C15,15.1568542 13.6568542,16.5 12,16.5 C10.3431458,16.5 9,15.1568542 9,13.5 C9,11.8431458 10.3431458,10.5 12,10.5 C13.6560832,10.50186 14.99814,11.8439168 15,13.5 L15,13.5 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <rect id="_Transparent_Rectangle_" x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

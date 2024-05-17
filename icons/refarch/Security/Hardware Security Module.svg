@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>hardware-security-module</title>
+    <g id="V2-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IBM-/-Cloud-/-Security" transform="translate(-1125, -13)">
+            <g id="hardware-security-module" transform="translate(1125, 13)">
+                <g id="Key-v2-Icon-Copy-3" fill="#FA4D56">
+                    <polygon id="Fill-4" points="0 48 48 48 48 0 0 0"></polygon>
+                </g>
+                <g transform="translate(12, 12)">
+                    <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="16.125" cy="5.625" r="1.125"></circle>
+                    <path d="M10.810725,15 L6.75,15 L6.75,10.939275 L11.2725,6.416775 C11.2577771,6.27833422 11.2502669,6.1392212 11.25,6 C11.25,3.51471863 13.2647186,1.5 15.75,1.5 C18.2352814,1.5 20.25,3.51471863 20.25,6 C20.25,8.48528137 18.2352814,10.5 15.75,10.5 C15.610729,10.4997295 15.4715662,10.4922193 15.333075,10.4775 L10.810725,15 Z M8.25,13.5 L10.189275,13.5 L14.817225,8.871825 L15.205275,8.9436 C15.3847095,8.9792424 15.5670694,8.99812367 15.75,9 C17.0357271,9.01599384 18.1922801,8.22083058 18.6377063,7.01461933 C19.0831325,5.80840809 18.7209534,4.45241186 17.7334098,3.6289389 C16.7458663,2.80546593 15.3468582,2.69287886 14.2403365,3.3478291 C13.1338148,4.00277933 12.5594499,5.28340591 12.80625,6.545325 L12.87765,6.932775 L8.25,11.560725 L8.25,13.5 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path d="M21,15 L14.25,15 L14.25,16.5 L21,16.5 L21,21 L3,21 L3,16.5 L4.5,16.5 L4.5,15 L3,15 C2.17198405,15.0009918 1.50099183,15.6719841 1.5,16.5 L1.5,21 C1.50099183,21.8280159 2.17198405,22.4990082 3,22.5 L21,22.5 C21.8280159,22.4990082 22.4990082,21.8280159 22.5,21 L22.5,16.5 C22.4990082,15.6719841 21.8280159,15.0009918 21,15 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="5.25" cy="18.75" r="1"></circle>
+                    <rect id="_Transparent_Rectangle_" x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

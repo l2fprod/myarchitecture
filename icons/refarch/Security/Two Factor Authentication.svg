@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>two-factor-authentication</title>
+    <g id="V2-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IBM-/-Cloud-/-Security" transform="translate(-921, -77)">
+            <g id="two-factor-authentication" transform="translate(921, 77)">
+                <rect id="Rectangle" fill="#FA4D56" x="0" y="0" width="48" height="48"></rect>
+                <g transform="translate(12, 12)">
+                    <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="8.25 17.385 6.75 15.88425 5.69175 16.94175 8.25 19.5 12.75 15 11.6925 13.9425"></polygon>
+                    <path d="M21,22.5 L18,22.5 L18,21 L21,21 L21,12 L18,12 L18,6 C17.99814,4.34391678 16.6560832,3.00185996 15,3 L15,1.5 C17.4841334,1.50276931 19.4972307,3.51586662 19.5,6 L19.5,10.5 L21,10.5 C21.8280673,10.5008681 22.4991319,11.1719327 22.5,12 L22.5,21 C22.4991319,21.8280673 21.8280673,22.4991319 21,22.5 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path d="M15,10.5 L13.5,10.5 L13.5,6 C13.5,3.51471863 11.4852814,1.5 9,1.5 C6.51471863,1.5 4.5,3.51471863 4.5,6 L4.5,10.5 L3,10.5 C2.17157288,10.5 1.5,11.1715729 1.5,12 L1.5,21 C1.5,21.8284271 2.17157288,22.5 3,22.5 L15,22.5 C15.8284271,22.5 16.5,21.8284271 16.5,21 L16.5,12 C16.5,11.1715729 15.8284271,10.5 15,10.5 Z M6,6 C6,4.34314575 7.34314575,3 9,3 C10.6568542,3 12,4.34314575 12,6 L12,10.5 L6,10.5 L6,6 Z M15,21 L3,21 L3,12 L15,12 L15,21 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <rect id="_Transparent_Rectangle_" x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ibm-cloud--key-protect</title>
+    <g id="V2-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IBM-/-Cloud-/-Security" transform="translate(-1390, -14)">
+            <g id="ibm-cloud--key-protect" transform="translate(1390, 14)">
+                <rect id="Rectangle" fill="#FA4D56" x="0" y="0" width="48" height="48"></rect>
+                <g transform="translate(12, 12)">
+                    <path d="M19.5,10.575 L19.5,1.5 L15.75,1.5 L15.75,3 L18,3 L18,4.5 L15.75,4.5 L15.75,6 L18,6 L18,10.575 C16.725,10.875 15.75,12.075 15.75,13.5 C15.75,15.15 17.1,16.5 18.75,16.5 C20.4,16.5 21.75,15.15 21.75,13.5 C21.75,12.075 20.775,10.95 19.5,10.575 Z M18.75,15 C17.925,15 17.25,14.325 17.25,13.5 C17.25,12.675 17.925,12 18.75,12 C19.575,12 20.25,12.675 20.25,13.5 C20.25,14.325 19.575,15 18.75,15 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path d="M11.25,23.25 L7.125,20.85 C4.575,19.35 3,16.65 3,13.725 L3,3 C3,2.175 3.675,1.5 4.5,1.5 L13.5,1.5 L13.5,3 L4.5,3 L4.5,13.725 C4.5,16.125 5.775,18.375 7.875,19.575 L11.25,21.6 L14.625,19.575 C15.45,19.05 16.2,18.45 16.725,17.625 L17.925,18.45 C17.25,19.425 16.35,20.25 15.3,20.85 L11.25,23.25 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <rect id="_x3C_Transparent_Rectangle_x3E__232_" x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
