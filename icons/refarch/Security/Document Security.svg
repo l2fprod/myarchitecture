@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>document--security</title>
+    <g id="V2-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IBM-/-Cloud-/-Security" transform="translate(-656, -13)">
+            <g id="document--security" transform="translate(656, 13)">
+                <rect id="Rectangle" fill="#FA4D56" x="0" y="0" width="48" height="48"></rect>
+                <g transform="translate(15, 12)">
+                    <path d="M17.25,22.5 L15.645975,21.740475 C14.3383159,21.1173106 13.503944,19.7993978 13.5,18.35085 L13.5,13.5 L21,13.5 L21,18.35085 C20.9962001,19.7995334 20.161806,21.117627 18.854025,21.74085 L17.25,22.5 Z M15,15 L15,18.35085 C15.0024255,19.219816 15.5030733,20.01036 16.2876,20.384025 L17.25,20.839575 L18.2124,20.384025 C18.9969267,20.01036 19.4975745,19.219816 19.5,18.35085 L19.5,15 L15,15 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path d="M12,21 L4.5,21 L4.5,3 L10.5,3 L10.5,7.5 C10.5023892,8.32743547 11.1725645,8.99761082 12,9 L16.5,9 L16.5,11.25 L18,11.25 L18,7.5 C18.0054377,7.30050671 17.9232108,7.10864396 17.775,6.975 L12.525,1.725 C12.3913862,1.57674705 12.199503,1.49451139 12,1.5 L4.5,1.5 C3.67256453,1.50238918 3.00238918,2.17256453 3,3 L3,21 C3.00238918,21.8274355 3.67256453,22.4976108 4.5,22.5 L12,22.5 L12,21 Z M12,3.3 L16.2,7.5 L12,7.5 L12,3.3 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <rect id="_Transparent_Rectangle_" x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

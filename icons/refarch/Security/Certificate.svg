@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Certificate</title>
+    <g id="V2-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IBM-/-Cloud-/-Security" transform="translate(-201, -14)">
+            <g id="Certificate" transform="translate(201, 14)">
+                <g id="bastion-host(1)" fill="#FA4D56">
+                    <polygon id="Fill-4" points="0 48 48 48 48 0 0 0"></polygon>
+                </g>
+                <g id="certificate" transform="translate(12, 12)">
+                    <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="18 12.75 19.434 15.52725 22.5 15.97275 20.25 18 20.82825 21 18 19.3125 15.17175 21 15.75 18 13.5 15.97275 16.65 15.52725"></polygon>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="4.5" y="12" width="4.5" height="1.5"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="4.5" y="9" width="7.5" height="1.5"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="4.5" y="6" width="7.5" height="1.5"></rect>
+                    <path d="M12,19.5 L3,19.5 L3,4.5 L21,4.5 L21,12 L22.5,12 L22.5,4.5 C22.5,3.67157288 21.8284271,3 21,3 L3,3 C2.17157288,3 1.5,3.67157288 1.5,4.5 L1.5,19.5 C1.5,20.3284271 2.17157288,21 3,21 L12,21 L12,19.5 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <rect id="_Transparent_Rectangle_" x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

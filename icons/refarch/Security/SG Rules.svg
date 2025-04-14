@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>SG Rules</title>
+    <g id="V2-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="IBM-/-Cloud-/-Security" transform="translate(-792, -77)">
+            <g id="SG-Rules" transform="translate(792, 77)">
+                <rect id="Rectangle" fill="#FA4D56" x="0" y="0" width="48" height="48"></rect>
+                <g id="rule" transform="translate(12, 12)">
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="7.5" y="12" width="9" height="1.5"></rect>
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="7.5" y="7.5" width="9" height="1.5"></rect>
+                    <path d="M11.9999951,22.5 L7.36815,20.030325 C4.67708925,18.5988247 2.99667923,15.7981125 2.99999509,12.75 L2.99999509,3 C3.00090936,2.17194984 3.67194984,1.50090936 4.49999509,1.5 L19.4999951,1.5 C20.3280502,1.50090936 20.9990906,2.17194984 20.9999951,3 L20.9999951,12.75 C21.0032652,15.7980587 19.3228631,18.5987 16.63185,20.030175 L11.9999951,22.5 Z M4.49999619,3 L4.49999619,12.75 C4.49735475,15.2439849 5.87233258,17.5355088 8.0742,18.706725 L11.9999962,20.799975 L15.9258,18.706725 C18.1276674,17.5355088 19.5026452,15.2439849 19.4999962,12.75 L19.4999962,3 L4.49999619,3 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <rect id="_Transparent_Rectangle_" x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
